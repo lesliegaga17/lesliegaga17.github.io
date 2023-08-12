@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.encabezado {
+  text-decoration: none;
+}
+
+.encabezado li {
+  color: #0e0d0d;
+}
+.encabezado a {
+  text-decoration: none;
+}
+
+div ul {
+  list-style: none;
+  display: inline;
+}
+div ul li {
+  margin: 10px;
+  color: rgb(0, 0, 0);
+  font-family: "Playfair Display", serif;
+  text-decoration: none;
+}
+
+h1 {
+  background-image: url(./image/Captura\ de\ pantalla\ 2023-08-08\ 115030.png);
+  text-align: center;
+  padding: 30px;
+  font-family: "Gloria Hallelujah", cursive;
+
+  color: rgb(246, 246, 246);
+}
+.background-pink {
+  background-color: #ffffff;
+}
+h2 {
+  font-family: "Playfair Display", serif;
+  text-align: center;
+  background: radial-gradient(
+    rgb(213, 140, 140) 10px,
+    rgb(255, 209, 134) 30%,
+    #be8d7f 50%
+  );
+
+  color: rgb(35, 31, 25);
+}
+h3 {
+  background-color: #8f8270;
+  text-align: center;
+  font-family: "Playfair Display", serif;
+}
+h4 {
+  background-color: #f0d2b8;
+  text-align: center;
+  font-family: "Playfair Display", serif;
+}
+.parra {
+  margin: 10px;
+  padding: 15px;
+  font-family: "Playfair Display", serif;
+  color: rgb(20, 21, 21);
+  text-align: inherit;
+}
+
+iframe {
+  margin: 0 auto;
+  display: block;
+}
+.container {
+  background-color: #fbfbfb;
+}
+.buttonn {
+  border: solid 1px hsl(99, 64%, 79%);
+  background-color: hsl(98, 55%, 64%);
+}
+.buttonn:focus,
+.buttonn:hover {
+  box-shadow: none;
+  border: solid 30px hsl(98, 100%, 61%);
+  background-color: hsl(97, 56%, 75%);
+}
